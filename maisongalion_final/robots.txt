@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /functions/
+Disallow: /*.json$
+Disallow: /.netlify/
+
+# Crawl delay (évite de surcharger le serveur)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://maisongalion.fr/sitemap.xml
